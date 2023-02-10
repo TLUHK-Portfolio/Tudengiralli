@@ -2,3 +2,4 @@
 Multimeediumi praktika
 
 Taavi Rannu
+ping
