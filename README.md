@@ -1,5 +1,9 @@
 # rif21-MM-praktika-1
 Multimeediumi praktika
 
-Taavi Rannu
-ping
+|Liige   |Roll   |   |
+|---|---|---|
+|Toivo   |arendaja   |tiimijuht   |
+|Taavi R.   |arendaja   |   |
+|Taavi A.  |disainer   |   |
+|Andero  |disainer   |   |
