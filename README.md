@@ -5,5 +5,5 @@ Multimeediumi praktika
 |---|---|---|
 |Toivo   |arendaja   |tiimijuht   |
 |Taavi R.   |arendaja   |   |
-|Taavi A.  |disainer   |   |
+|Taavi A.  |disainer   |  * |
 |Andero  |disainer   |   |
