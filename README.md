@@ -1,5 +1,5 @@
-# rif21-MM-praktika-1
-Multimeediumi praktika
+# Tudengiralli
+Tudengiralli on 2D platformer, mis seisneb võimalikult kiiresti leveli algusest leveli lõppu jõudmises, läbides kõik vajalikud positsioonid. Levelil on hulga takistusi mille ületamine nõuab olemasolevate mehaniikate osavat kasutust. Temaatika keerleb ülikooli semestrite (levelite) ja lõpuks terve ülikooli läbimises.
 
 |Liige   |Roll   |   |
 |---|---|---|
