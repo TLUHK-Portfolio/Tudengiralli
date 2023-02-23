@@ -12,7 +12,7 @@ Multimeediumi praktika
 [Tudengiralli inspiratsioonitahvel Miros](https://miro.com/app/board/uXjVPmmjoJ0=/?share_link_id=440333319760)
 
 ## Mängu kirjeldus 
-[Mängu kirjeldus](https://github.com/tluhk/rif21-MM-praktika-1/blob/master/doc/M%C3%A4ngumootorite%20anal%C3%BC%C3%BCs.md)
+[Mängu kirjeldus](https://github.com/tluhk/rif21-MM-praktika-1/blob/master/doc/m%C3%A4ngu%20kirjeldus.md)
 
 ## Mängumootorite analüüs
 [Mängumootorite analüüs](https://github.com/tluhk/rif21-MM-praktika-1/blob/master/doc/M%C3%A4ngumootorite%20anal%C3%BC%C3%BCs.md)
