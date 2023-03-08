@@ -20,3 +20,6 @@ Tudengiralli on 2D platformer, mis seisneb võimalikult kiiresti leveli algusest
 
 ## Unity
 Unity 2022.2.6
+
+## Allikad ja lingikogu
+Allikad, viited lingid saab sisestada: [Allikad.md faili](https://github.com/tluhk/rif21-MM-praktika-1/blob/master/doc/Allikad.md)
