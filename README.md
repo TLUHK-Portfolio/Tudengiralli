@@ -5,11 +5,11 @@ Tudengiralli on 2D platformer, mis seisneb võimalikult kiiresti leveli algusest
 |---|---|---|
 |Toivo   |arendaja   |tiimijuht   |
 |Taavi R.   |arendaja   |   |
-|Taavi A.  |disainer   |  * |
+|Taavi A.  |disainer   |   |
 |Andero  |disainer   |   |
 
 ## Tudengiralli mängitav versioon
-- [versioon 0.2.0 allalaadimi](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.2.0/tudengiralli-winx64-build-v0.2.0.zip)
+- [versioon 0.2.0 allalaadimislink](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.2.0/tudengiralli-winx64-build-v0.2.0.zip)
 - Mängu käivitamiseks paki lahti allalaetud fail ning käivita tudengiralli.exe
 - Mängust väljumiseks tuleb kasutada kombinatsiooni Alt+f4.
 
