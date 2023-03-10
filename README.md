@@ -20,6 +20,7 @@ Tudengiralli on 2D platformer, mis seisneb võimalikult kiiresti leveli algusest
 [Mängu kirjeldus](https://github.com/tluhk/rif21-MM-praktika-1/blob/master/doc/m%C3%A4ngu%20kirjeldus.md)
 
 ## Mängumootorite analüüs
+Jõudsime järeldusele, et kasutame Unity mängumootorit
 [Mängumootorite analüüs](https://github.com/tluhk/rif21-MM-praktika-1/blob/master/doc/M%C3%A4ngumootorite%20anal%C3%BC%C3%BCs.md)
 
 
