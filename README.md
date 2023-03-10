@@ -8,6 +8,9 @@ Tudengiralli on 2D platformer, mis seisneb võimalikult kiiresti leveli algusest
 |Taavi A.  |disainer   |  * |
 |Andero  |disainer   |   |
 
+## Tudengiralli
+- [versioon 0.2.0](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.2.0/tudengiralli-winx64-build-v0.2.0.zip), mängu käivitamiseks paki lahti allalaetud fail ning käivita tudengiralli.exe
+
 ## Inspiratsioonitahvel
 [Tudengiralli inspiratsioonitahvel Miros](https://miro.com/app/board/uXjVPmmjoJ0=/?share_link_id=440333319760)
 
