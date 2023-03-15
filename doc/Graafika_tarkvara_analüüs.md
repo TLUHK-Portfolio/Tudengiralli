@@ -28,3 +28,7 @@ Piskelit olen ka natuke kasutanud. Võrreldes pixelorama ja librespritega on pis
 
 ### Pixiart
 Nagu sissejuhtuses mainitud siis tegelikult kasutan seda rohkem vaatamaks mida teised teinud on. Sellel on veebipõhine editor, mille UI on minu meelest liiga kaootiline. Lisaks on sellel reklaamid, mitte esiletrükkivad aga ikkagi reklaamid. Tabelist vaadates on sellel kõige enam selliseid tööriistu aga mulle tundub, et peale grediendi ma neid väga taga ei igatse ja ma ei ole kindel, et gradient meie töös niiväga oluline on.
+
+## Otsus
+
+15.03.2023 koosoleku seisuga otsustasime, et kasutame sellist tarkvara mis meile parasjagu meeldib ja sobib.
