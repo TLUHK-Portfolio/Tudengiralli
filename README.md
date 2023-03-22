@@ -1,5 +1,5 @@
 # Tudengiralli
-Tudengiralli on 2D platformer, mis seisneb võimalikult kiiresti leveli algusest leveli lõppu jõudmises, läbides kõik vajalikud positsioonid. Levelil on hulga takistusi mille ületamine nõuab olemasolevate mehaniikate osavat kasutust. Temaatika keerleb ülikooli semestrite (levelite) ja lõpuks terve ülikooli läbimises.
+Tudengiralli on 2D platvormtüüpi arvutimäng, kus mängija eesmärk on võimalikult kiiresti jõuda leveli algusest finišisse. Finiš avaneb alles siis, kui mängija on läbinud kõik vahepunktid ja kogunud nendest esemed. Mõned vahepunktid nõuavad batuutide kasutamist, et jõuda piisavalt kõrgele. Mäng kasutab Piksel graafikat ja peategelaseks on tudeng. Esialgu ei saa karakterit valida ja planeeritud on kolm taset. Mängus on mitmeid takistusi, mille ületamine paneb mängija osavuse proovile. Mängu temaatika keskendub ülikooli semestrite läbimisele.
 
 |Liige   |Roll   |   |
 |---|---|---|
