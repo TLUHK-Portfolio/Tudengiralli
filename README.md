@@ -1,6 +1,5 @@
 # Tudengiralli
-Tudengiralli on 2D platvormtüüpi arvutimäng, kus mängija eesmärk on võimalikult kiiresti jõuda leveli algusest finišisse. Finiš avaneb alles siis, kui mängija on läbinud kõik vahepunktid ja kogunud nendest esemed. Mõned vahepunktid nõuavad batuutide kasutamist, et jõuda piisavalt kõrgele. Mäng kasutab Piksel graafikat ja peategelaseks on tudeng. Esialgu ei saa karakterit valida ja planeeritud on kolm taset. Mängus on mitmeid takistusi, mille ületamine paneb mängija osavuse proovile. Mängu temaatika keskendub ülikooli semestrite läbimisele.
-
+## Tiim ja rollid
 |Liige   |Roll   |   |
 |---|---|---|
 |Toivo   |arendaja   |tiimijuht   |
@@ -8,10 +7,16 @@ Tudengiralli on 2D platvormtüüpi arvutimäng, kus mängija eesmärk on võimal
 |Taavi A.  |disainer   |   |
 |Andero  |disainer   |   |
 
+## Mängu tutvustus
+Tudengiralli on 2D platvormtüüpi arvutimäng, kus mängija eesmärk on võimalikult kiiresti jõuda leveli algusest finišisse. Finiš avaneb alles siis, kui mängija on läbinud kõik vahepunktid ja kogunud nendest esemed. Mõned vahepunktid nõuavad batuutide kasutamist, et jõuda piisavalt kõrgele. 
+
+Mäng kasutab Piksel graafikat ja peategelaseks on tudeng. Esialgu ei saa karakterit valida ja planeeritud on kolm taset. Mängus on mitmeid takistusi, mille ületamine paneb mängija osavuse proovile. Mängu temaatika keskendub ülikooli semestrite läbimisele.
+
 ## Tudengiralli mängitav versioon
 - [versioon 0.2.0 allalaadimislink](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.2.0/tudengiralli-winx64-build-v0.2.0.zip)
 - Mängu käivitamiseks paki lahti allalaetud fail ning käivita tudengiralli.exe
 - Mängust väljumiseks tuleb kasutada kombinatsiooni Alt+f4.
+- Karakteri juhtimiseks tuleb kasutada noole klahve (toimib ka tühik, w ja d). 
 
 ## Inspiratsioonitahvel
 [Tudengiralli inspiratsioonitahvel Miros](https://miro.com/app/board/uXjVPmmjoJ0=/?share_link_id=440333319760)
