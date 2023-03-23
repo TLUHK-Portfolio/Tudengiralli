@@ -17,6 +17,10 @@ Meie mänguarenduse tiim:
 - Mängust väljumiseks tuleb kasutada kombinatsiooni Alt+f4.
 - Karakteri juhtimiseks tuleb kasutada noole klahve (toimib ka tühik, w ja d). 
 
+## Struktuuri kirjeldus
+<img width="1282" alt="Tundegiralli struktuuri kirjeldus" src="https://user-images.githubusercontent.com/29203508/227105634-f6deccb3-44e4-44ae-8e0e-8ec3fbfef8a6.png">
+
+
 ## Inspiratsioonitahvel
 [Tudengiralli inspiratsioonitahvel Miros](https://miro.com/app/board/uXjVPmmjoJ0=/?share_link_id=440333319760)
 
