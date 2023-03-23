@@ -1,4 +1,8 @@
 # Tudengiralli
+# NB! Release v.0.3.0 Tudengiralli.zip ja Tudengiralli.rar on nakatunud pahavaraga. 
+Tänase päeva jooksul lahendame olukorran ning laeme üles uue versiooni.
+
+
 ## Mängu tutvustus
 Tudengiralli on 2D platvormtüüpi arvutimäng, kus mängija eesmärk on võimalikult kiiresti jõuda leveli algusest finišisse. Finiš avaneb alles siis, kui mängija on läbinud kõik vahepunktid ja kogunud nendest esemed. Mõned vahepunktid nõuavad batuutide kasutamist, et jõuda piisavalt kõrgele. 
 
