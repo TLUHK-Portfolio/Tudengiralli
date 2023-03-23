@@ -1,7 +1,4 @@
 # Tudengiralli
-# NB! Release v.0.3.0 Tudengiralli.zip ja Tudengiralli.rar on nakatunud pahavaraga. 
-Tänase päeva jooksul lahendame olukorran ning laeme üles uue versiooni.
-
 
 ## Mängu tutvustus
 Tudengiralli on 2D platvormtüüpi arvutimäng, kus mängija eesmärk on võimalikult kiiresti jõuda leveli algusest finišisse. Finiš avaneb alles siis, kui mängija on läbinud kõik vahepunktid ja kogunud nendest esemed. Mõned vahepunktid nõuavad batuutide kasutamist, et jõuda piisavalt kõrgele. 
@@ -16,7 +13,7 @@ Meie mänguarenduse tiim:
 |Taavi A.  |disainer   |   |
 |Andero  |disainer   |   |
 ## Tudengiralli versioon 0.3.0
-- [versioon 0.3.0 allalaadimislink](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.3.0/Tudengiralliv0.3.0.zip)
+- [versioon 0.3.0 allalaadimislink](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.3.0/Tudengiralli-build-v0.3.0.zip)
 - Mängu käivitamiseks paki lahti allalaetud fail ning käivita tudengiralli.exe
 - Mängust väljumiseks tuleb kasutada kombinatsiooni Alt+f4 või menüüst valikut exit.
 - Karakteri juhtimiseks tuleb kasutada noole klahve (toimib ka tühik, w ja d). 
