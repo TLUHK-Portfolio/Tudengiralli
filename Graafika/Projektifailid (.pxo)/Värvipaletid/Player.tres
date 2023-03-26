@@ -1,0 +1,123 @@
+[gd_resource type="Resource" load_steps=21 format=2]
+
+[ext_resource path="res://src/Palette/PaletteColor.gd" type="Script" id=1]
+[ext_resource path="res://src/Palette/Palette.gd" type="Script" id=2]
+
+[sub_resource type="Resource" id=5]
+script = ExtResource( 1 )
+color = Color( 1, 1, 1, 1 )
+index = 0
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 1 )
+color = Color( 0, 0, 0, 1 )
+index = 1
+
+[sub_resource type="Resource" id=11]
+script = ExtResource( 1 )
+color = Color( 0.765625, 0.765625, 0.765625, 1 )
+index = 2
+
+[sub_resource type="Resource" id=4]
+script = ExtResource( 1 )
+color = Color( 0.933333, 0.764706, 0.603922, 1 )
+index = 8
+
+[sub_resource type="Resource" id=13]
+script = ExtResource( 1 )
+color = Color( 0.842448, 0.664444, 0.494719, 1 )
+index = 9
+
+[sub_resource type="Resource" id=14]
+script = ExtResource( 1 )
+color = Color( 0.4, 0.223529, 0.192157, 1 )
+index = 10
+
+[sub_resource type="Resource" id=7]
+script = ExtResource( 1 )
+color = Color( 0.326823, 0.21084, 0.190221, 1 )
+index = 11
+
+[sub_resource type="Resource" id=6]
+script = ExtResource( 1 )
+color = Color( 0.372549, 0.803922, 0.894118, 1 )
+index = 16
+
+[sub_resource type="Resource" id=8]
+script = ExtResource( 1 )
+color = Color( 0.271729, 0.560677, 0.621094, 1 )
+index = 17
+
+[sub_resource type="Resource" id=12]
+script = ExtResource( 1 )
+color = Color( 0.552475, 0.880609, 0.949219, 1 )
+index = 18
+
+[sub_resource type="Resource" id=3]
+script = ExtResource( 1 )
+color = Color( 0.188235, 0.376471, 0.509804, 1 )
+index = 24
+
+[sub_resource type="Resource" id=9]
+script = ExtResource( 1 )
+color = Color( 0.123535, 0.252441, 0.34375, 1 )
+index = 25
+
+[sub_resource type="Resource" id=15]
+script = ExtResource( 1 )
+color = Color( 0.0755971, 0.158631, 0.217448, 1 )
+index = 26
+
+[sub_resource type="Resource" id=2]
+script = ExtResource( 1 )
+color = Color( 0.87451, 0.443137, 0.14902, 1 )
+index = 32
+
+[sub_resource type="Resource" id=10]
+script = ExtResource( 1 )
+color = Color( 0.589844, 0.292556, 0.089859, 1 )
+index = 33
+
+[sub_resource type="Resource" id=16]
+script = ExtResource( 1 )
+color = Color( 0.334635, 0.167012, 0.0527226, 1 )
+index = 34
+
+[sub_resource type="Resource" id=17]
+script = ExtResource( 1 )
+color = Color( 0.207031, 0.100602, 0.0280354, 1 )
+index = 35
+
+[sub_resource type="Resource" id=18]
+script = ExtResource( 1 )
+color = Color( 1, 1, 1, 1 )
+index = 3
+
+[resource]
+resource_name = "PlayerConcept2Palette"
+script = ExtResource( 2 )
+name = "PlayerConcept2Palette"
+comment = "Loodud kontseptsiooni kasutatud värvid"
+width = 8
+height = 8
+colors = {
+0: SubResource( 5 ),
+1: SubResource( 1 ),
+2: SubResource( 11 ),
+3: SubResource( 18 ),
+8: SubResource( 4 ),
+9: SubResource( 13 ),
+10: SubResource( 14 ),
+11: SubResource( 7 ),
+16: SubResource( 6 ),
+17: SubResource( 8 ),
+18: SubResource( 12 ),
+24: SubResource( 3 ),
+25: SubResource( 9 ),
+26: SubResource( 15 ),
+32: SubResource( 2 ),
+33: SubResource( 10 ),
+34: SubResource( 16 ),
+35: SubResource( 17 )
+}
+colors_max = 64
