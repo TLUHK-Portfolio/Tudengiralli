@@ -133,5 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5659b69c0965347bc1d88034bb1738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stunTimer: 0.8
-  pushbackForce: 1000
+  stunTimer: 0.7
+  pushbackForce: 800

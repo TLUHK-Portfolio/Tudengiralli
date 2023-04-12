@@ -12,7 +12,6 @@ public class FinishCollision : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             GameManager.GetComponent<GameManager>().FinishMenu();
-            Debug.Log("col0");
         }
     }
 }
