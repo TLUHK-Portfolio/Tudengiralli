@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5e3e10db1dbafc34399205075a7aa329
+guid: 8fc5531642ce1e0419afc3e7d09ee118
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,10 +45,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,36 +103,60 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackgroundTileset_0
+      name: TestFloor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5ff7b71e91c88449c5be3f14f44389
+      internalID: 1707648541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestFloor_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 368
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e4bf8619bfba2a4290134ae2ee2c703
-      internalID: 1658269510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BackgroundTileset_1
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 368
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -142,102 +166,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f290666b38ab9349a9653894cdece84
-      internalID: -262120639
+      spriteID: 55b52021695768d43922ae34e6365a2d
+      internalID: 1500738182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundTileset_2
+      name: TestFloor_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 368
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 542c3a01cc5ad5c4f862a620c0978c36
-      internalID: 717874210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BackgroundTileset_3
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 368
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd7f929d4cb2ce74fb5246193b44f83b
-      internalID: 511038355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BackgroundTileset_4
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 368
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c73e426fecf360940b5aad0d5a315947
-      internalID: 316155527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BackgroundTileset_5
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 368
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b1437600ea081f4e95fc3d150a1d1ae
-      internalID: -106608387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BackgroundTileset_6
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 368
+        x: 64
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -247,81 +187,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89f8b2c91aecff049b9eacd16c289483
-      internalID: -1513234038
+      spriteID: c5df31ee08713b1458fa5cc7be6a52fa
+      internalID: -1019208946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundTileset_7
+      name: TestFloor_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76462467c14e34469f24a0501154f1c
+      internalID: -1647266112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestFloor_4
       rect:
         serializedVersion: 2
         x: 32
-        y: 240
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 577bea8d719f63b4db9741069c321857
-      internalID: 1445983806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BackgroundTileset_8
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 240
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64e95461c7614374fab1e29ce6395a81
-      internalID: -201514929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BackgroundTileset_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 240
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e9a379c1efb84f46b0152b8586313b4
-      internalID: 415389117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BackgroundTileset_10
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 272
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -331,19 +229,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6cb68f8a3907d148a4c8190bd9f6b3d
-      internalID: 799088082
+      spriteID: a75d2b9da95a3ff46a55e27016378cd4
+      internalID: -2076965321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundTileset_11
+      name: TestFloor_5
       rect:
         serializedVersion: 2
-        x: 416
-        y: 240
-        width: 96
+        x: 64
+        y: 32
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -352,8 +250,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17342df4fcbb820469e78ca4f9b09746
-      internalID: -748195661
+      spriteID: 04a5ef9acaa391541961129a4ccee628
+      internalID: -2136785971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestFloor_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6983e22cedbf17f4d8b9bed879948427
+      internalID: -1536119938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestFloor_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee033113f99d864f918e122834de5cf
+      internalID: -2100973588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestFloor_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c9455a934a4e54da90ded907390cf9
+      internalID: 1295954246
       vertices: []
       indices: 
       edges: []
@@ -369,18 +330,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BackgroundTileset_0: 1658269510
-      BackgroundTileset_1: -262120639
-      BackgroundTileset_10: 799088082
-      BackgroundTileset_11: -748195661
-      BackgroundTileset_2: 717874210
-      BackgroundTileset_3: 511038355
-      BackgroundTileset_4: 316155527
-      BackgroundTileset_5: -106608387
-      BackgroundTileset_6: -1513234038
-      BackgroundTileset_7: 1445983806
-      BackgroundTileset_8: -201514929
-      BackgroundTileset_9: 415389117
+      TestFloor_0: 1707648541
+      TestFloor_1: 1500738182
+      TestFloor_2: -1019208946
+      TestFloor_3: -1647266112
+      TestFloor_4: -2076965321
+      TestFloor_5: -2136785971
+      TestFloor_6: -1536119938
+      TestFloor_7: -2100973588
+      TestFloor_8: 1295954246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
