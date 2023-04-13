@@ -12,8 +12,8 @@ Meie mänguarenduse tiim:
 |Taavi R.   |arendaja   |   |
 |Taavi A.  |disainer   |   |
 |Andero  |disainer   |   |
-## Tudengiralli versioon 0.3.0
-- [versioon 0.3.0 allalaadimislink](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.3.0/Tudengiralli-build-v0.3.0.zip)
+## Tudengiralli versioon 0.4.0
+- [versioon 0.4.0 allalaadimislink](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.4.0/Tudengiralli.zip)
 - Mängu käivitamiseks paki lahti allalaetud fail ning käivita tudengiralli.exe
 - Mängust väljumiseks tuleb kasutada kombinatsiooni Alt+f4 või menüüst valikut exit.
 - Karakteri juhtimiseks tuleb kasutada noole klahve (toimib ka tühik, w ja d). 
