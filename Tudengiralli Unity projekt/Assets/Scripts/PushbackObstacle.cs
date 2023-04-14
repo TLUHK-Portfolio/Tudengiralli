@@ -10,6 +10,8 @@ public class PushbackObstacle : MonoBehaviour
     [Tooltip("How strongly will the player  be pushed.")]
     [SerializeField] private float pushbackForce = 1000f;
 
+
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
