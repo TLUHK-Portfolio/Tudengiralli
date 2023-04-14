@@ -7,11 +7,18 @@ public class FinishCollision : MonoBehaviour
     [SerializeField]
     private GameObject GameManager;
 
-    void OnCollisionEnter2D(Collision2D collision)
+    [SerializeField]
+    private int collectibles_needed;
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.CompareTag("Player"))
         {
-            GameManager.GetComponent<GameManager>().FinishMenu();
+            if (GameManager.GetComponent<GameManager>().collected >= collectibles_needed)
+            {
+                Debug.Log("fin");
+                GameManager.GetComponent<GameManager>().FinishMenu();
+            }
         }
     }
 }

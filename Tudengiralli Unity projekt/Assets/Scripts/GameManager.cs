@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     private GameObject CurrentScore;
 
     private bool paused = false;
+    public int collected = 0;
 
     private void Update()
     {
@@ -100,5 +101,11 @@ public class GameManager : MonoBehaviour
     public void ChooseScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
+    }
+
+    public void CollectibleCounter()
+    {
+        Debug.Log("+1");
+        collected++;
     }
 }
