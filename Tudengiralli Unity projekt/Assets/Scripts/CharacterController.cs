@@ -17,7 +17,7 @@ public class CharacterController : MonoBehaviour
 	private Vector3 m_Velocity = Vector3.zero;
 	public float dash_force;
 	private bool dashing = false;
-	private float dash_timer = 0.1f;
+	private float dash_timer = 0.7f;
 	private float current_dash_timer;
 	private int dash_direction;
 	private float current_dash_cooldown;

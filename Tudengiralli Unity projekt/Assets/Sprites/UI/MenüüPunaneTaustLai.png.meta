@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fa642d5442528c14a9fc6094a3c18898
+guid: 8ba2e13c8026dac46a23e944c1418e50
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -53,7 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -106,31 +106,11 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline:
-    - - {x: -22.5, y: 45.5}
-      - {x: -22.5, y: 34.5}
-      - {x: -34.5, y: 34.5}
-      - {x: -34.5, y: 22.5}
-      - {x: -45.5, y: 22.5}
-      - {x: -45.5, y: -21.5}
-      - {x: -34.5, y: -21.5}
-      - {x: -34.5, y: -33.5}
-      - {x: -22.5, y: -33.5}
-      - {x: -22.5, y: -44.5}
-      - {x: 21.5, y: -44.5}
-      - {x: 21.5, y: -33.5}
-      - {x: 33.5, y: -33.5}
-      - {x: 33.5, y: -21.5}
-      - {x: 44.5, y: -21.5}
-      - {x: 44.5, y: 22.5}
-      - {x: 33.5, y: 22.5}
-      - {x: 33.5, y: 34.5}
-      - {x: 21.5, y: 34.5}
-      - {x: 21.5, y: 45.5}
+    outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
