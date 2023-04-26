@@ -11,12 +11,11 @@ public class Collectible : MonoBehaviour
     [SerializeField]
     private GameObject GameManager;
     private Vector3 originalPosition;
-    private AudioSource _audioSource;
+    
 
     void Start()
     {
         originalPosition = transform.position;
-        _audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -30,7 +29,7 @@ public class Collectible : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("wowowowow");
-            _audioSource.Play();
+            
             GameManager.GetComponent<GameManager>().CollectibleCounter();
             Destroy(gameObject);
         }
