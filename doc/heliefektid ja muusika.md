@@ -35,3 +35,5 @@ public class PushbackObstacle : MonoBehaviour
     }
 }
 ```
+Heli faili on võimalik muuta 
+![instpektori all](https://github.com/tluhk/rif21-MM-praktika-1/blob/a611c24c9cba43c38263252937659539aa879762/doc/pushbacksound.png)
