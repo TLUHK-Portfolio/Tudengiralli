@@ -11,6 +11,7 @@ public class Collectible : MonoBehaviour
     [SerializeField]
     private GameObject GameManager;
     private Vector3 originalPosition;
+    public AudioClip coinSound;
     
 
     void Start()
@@ -29,7 +30,7 @@ public class Collectible : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("wowowowow");
-            
+            SoundManager.instance.PlaySingle(coinSound);
             GameManager.GetComponent<GameManager>().CollectibleCounter();
             Destroy(gameObject);
         }

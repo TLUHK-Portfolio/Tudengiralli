@@ -408,7 +408,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dd0a451dfe17fb04aa36adb04b3d8fc9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4235,6 +4235,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6731111144943461416, guid: fa36aa24fedf766459f67a4230661423, type: 3}
+      propertyPath: pushSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4dd53e3883d2fc6459448af10c106527, type: 3}
+    - target: {fileID: 6731111144943461416, guid: fa36aa24fedf766459f67a4230661423, type: 3}
       propertyPath: stunTimer
       value: 0.7
       objectReference: {fileID: 0}
@@ -5708,6 +5712,8 @@ MonoBehaviour:
   controller: {fileID: 1652764586}
   runSpeed: 70
   stunTimer: 0
+  jumpSound: {fileID: 8300000, guid: 51ab06302f485a6459ace5ace934b4c3, type: 3}
+  dashSound: {fileID: 8300000, guid: 4dd53e3883d2fc6459448af10c106527, type: 3}
 --- !u!82 &1652764592
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6728,6 +6734,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8405549270191830586, guid: 6d9bbe522955ffb48a049d74d0aeca7b, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d94461b8ab1ff514ab75c305b2a74526, type: 3}
+    - target: {fileID: 8405549270191830586, guid: 6d9bbe522955ffb48a049d74d0aeca7b, type: 3}
       propertyPath: GameManager
       value: 
       objectReference: {fileID: 632448983}
@@ -6800,6 +6810,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6731111144943461416, guid: fa36aa24fedf766459f67a4230661423, type: 3}
+      propertyPath: pushSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0fb9ac357c6d9594285901db2e4bdb5b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6817,6 +6831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible
       objectReference: {fileID: 0}
+    - target: {fileID: 5118826695457033453, guid: faacb20353195ca459825832ae366e9b, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d94461b8ab1ff514ab75c305b2a74526, type: 3}
     - target: {fileID: 5118826695457033453, guid: faacb20353195ca459825832ae366e9b, type: 3}
       propertyPath: GameManager
       value: 

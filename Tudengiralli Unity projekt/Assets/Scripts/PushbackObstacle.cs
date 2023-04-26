@@ -9,7 +9,7 @@ public class PushbackObstacle : MonoBehaviour
 
     [Tooltip("How strongly will the player  be pushed.")]
     [SerializeField] private float pushbackForce = 1000f;
-
+    public AudioClip pushSound;
  
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -17,6 +17,7 @@ public class PushbackObstacle : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("impact");
+            SoundManager.instance.PlaySingle(pushSound);
             Rigidbody2D playerRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
             collision.gameObject.GetComponent<PlayerInput>().stunTimer = stunTimer;
             playerRigidbody.velocity = new Vector2(0, 0);

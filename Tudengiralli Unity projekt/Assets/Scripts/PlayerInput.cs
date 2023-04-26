@@ -12,9 +12,11 @@ public class PlayerInput : MonoBehaviour
 	public float runSpeed = 40f;
 	public float stunTimer = 0f;
 	private bool stun = false;
-
 	float horizontalMove = 0f;
-
+	
+	// sound effects
+	public AudioClip jumpSound;
+	public AudioClip dashSound;
 
     private void Awake()
     {
@@ -38,15 +40,19 @@ public class PlayerInput : MonoBehaviour
 			// Get player input for horizontal movement
 			horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
-			// Get player input for jumpinng
-			if (Input.GetButtonDown("Dash"))
+        
+
+            // Get player input for Dashing
+            if (Input.GetButtonDown("Dash"))
 			{
 				controller.Dash();
-			}
+                SoundManager.instance.PlaySingle(dashSound);
+            }
 			// Get player input for jumping
 			if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow))
 			{
 				controller.Jump();
+				SoundManager.instance.PlaySingle(jumpSound);
 			}
 		}
 		
