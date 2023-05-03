@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour
         TimerObject.GetComponent<Timer>().StopTimer();
         Time.timeScale = 0f;
         PauseUI.SetActive(true);
+        SoundManager.instance.musicSource.volume = 0;
     }
 
     public void ClosePauseMenu()
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         TimerObject.GetComponent<Timer>().StartTimer();
         PauseUI.SetActive(false);
+        SoundManager.instance.musicSource.volume = SoundManager.instance.backroundMusicVolume;
     }
 
     public void Scores()
