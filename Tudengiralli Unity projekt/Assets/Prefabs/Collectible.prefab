@@ -99,8 +99,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bobHeight: 0.2
-  bobSpeed: 2
+  bobSpeed: 3
   GameManager: {fileID: 0}
+  coinSound: {fileID: 8300000, guid: d94461b8ab1ff514ab75c305b2a74526, type: 3}
 --- !u!58 &5118826695457033448
 CircleCollider2D:
   m_ObjectHideFlags: 0

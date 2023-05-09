@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &728501266416747127
 SpriteRenderer:
@@ -99,8 +99,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bobHeight: 0.2
-  bobSpeed: 2
+  bobSpeed: 3
   GameManager: {fileID: 0}
+  coinSound: {fileID: 8300000, guid: d94461b8ab1ff514ab75c305b2a74526, type: 3}
 --- !u!58 &4351823808740399027
 CircleCollider2D:
   m_ObjectHideFlags: 0

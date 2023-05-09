@@ -9,19 +9,21 @@ public class PlayerInput : MonoBehaviour
 
 	private Rigidbody2D m_Rigidbody2D;
 	private BoxCollider2D m_Collider2D;
+	private Animator Anim;
 	public float runSpeed = 40f;
 	public float stunTimer = 0f;
 	private bool stun = false;
 	float horizontalMove = 0f;
 	
 	// sound effects
-	public AudioClip jumpSound;
-	public AudioClip dashSound;
+	//public AudioClip jumpSound;
+	//public AudioClip dashSound;
 
     private void Awake()
     {
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 		m_Collider2D = GetComponent<BoxCollider2D>();
+		Anim = GetComponent<Animator>();
 	}
 
     // Update is called once per frame
@@ -39,20 +41,20 @@ public class PlayerInput : MonoBehaviour
 
 			// Get player input for horizontal movement
 			horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+			Anim.SetFloat("isRunning", Mathf.Abs(horizontalMove));
 
-        
 
-            // Get player input for Dashing
-            if (Input.GetButtonDown("Dash"))
+			// Get player input for Dashing
+			if (Input.GetButtonDown("Dash"))
 			{
 				controller.Dash();
-                SoundManager.instance.PlaySingle(dashSound);
+                //SoundManager.instance.PlaySingle(dashSound);
             }
 			// Get player input for jumping
 			if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow))
 			{
 				controller.Jump();
-				SoundManager.instance.PlaySingle(jumpSound);
+				//SoundManager.instance.PlaySingle(jumpSound);
 			}
 		}
 		

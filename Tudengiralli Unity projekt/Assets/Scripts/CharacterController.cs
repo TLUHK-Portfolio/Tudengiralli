@@ -17,18 +17,25 @@ public class CharacterController : MonoBehaviour
 	private Vector3 m_Velocity = Vector3.zero;
 	public float dash_force;
 	private bool dashing = false;
-	private float dash_timer = 0.7f;
+	private float dash_timer = 1f;
 	private float current_dash_timer;
 	private int dash_direction;
 	private float current_dash_cooldown;
 	public float dash_cooldown;
+	private float jump_anim_timer;
 	private float g;
 	private AudioSource Audio;
+	private Animator Anim;
+
+	// sound effects
+	public AudioClip jumpSound;
+	public AudioClip dashSound;
 
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 		Audio = GetComponent<AudioSource>();
+		Anim = GetComponent<Animator>();
 	}
 
 
@@ -41,6 +48,16 @@ public class CharacterController : MonoBehaviour
 		if (colliders.Length != 0)
 		{
 			m_Grounded = true;
+			if (jump_anim_timer <= 0)
+			{
+				Anim.SetBool("isJumping", false);
+			}
+			
+		}
+
+		if (jump_anim_timer > 0)
+		{
+			jump_anim_timer -= Time.deltaTime;
 		}
 
 		if (current_dash_cooldown <= dash_cooldown)
@@ -58,6 +75,8 @@ public class CharacterController : MonoBehaviour
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			// Smooth it out and apply it to the character
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+
+			
 
 			// If the input is moving the player right and the player is facing left
 			if (move > 0 && !m_FacingRight)
@@ -79,9 +98,11 @@ public class CharacterController : MonoBehaviour
 		// If the player can jump
 		if (m_Grounded)
 		{
+			SoundManager.instance.PlaySingle(jumpSound);
+			Anim.SetBool("isJumping", true);
+			jump_anim_timer = 0.1f;
 			Audio.Play();
 			m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0);
-			Debug.Log("Jump");
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
@@ -97,6 +118,7 @@ public class CharacterController : MonoBehaviour
 
 		IEnumerator dash_enum()
 		{
+
 			if (m_FacingRight)
 			{
 				dash_direction = 1;
@@ -105,14 +127,15 @@ public class CharacterController : MonoBehaviour
 			{
 				dash_direction = -1;
 			}
-
+			Anim.SetTrigger("Dash");
+			SoundManager.instance.PlaySingle(dashSound);
 			dashing = true;
 			g = m_Rigidbody2D.gravityScale;
 			m_Rigidbody2D.gravityScale = 0;
 			current_dash_timer = dash_timer;
 			m_Rigidbody2D.velocity = Vector2.zero;
 
-			yield return new WaitForSeconds(0.3f);
+			yield return new WaitForSeconds(0.1f);
 
 			dashing = false;
 			m_Rigidbody2D.gravityScale = g;
