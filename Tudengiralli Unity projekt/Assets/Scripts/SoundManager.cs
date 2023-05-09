@@ -28,6 +28,9 @@ public class SoundManager : MonoBehaviour
 
         //Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading our scene.
         DontDestroyOnLoad(gameObject);
+
+        efxSource.volume = PlayerPrefs.GetFloat("efx");
+        musicSource.volume = PlayerPrefs.GetFloat("music");
     }
 
 

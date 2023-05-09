@@ -58,7 +58,29 @@ public class GameManager : MonoBehaviour
         TimerObject.GetComponent<Timer>().StopTimer();
         Time.timeScale = 0f;
         PauseUI.SetActive(true);
-        SoundManager.instance.musicSource.volume = 0;
+        //SoundManager.instance.musicSource.volume = 0;
+    }
+
+    public void SetEffectVolume(float i)
+    {
+        SoundManager.instance.efxSource.volume = i;
+        PlayerPrefs.SetFloat("efx", i);
+    }
+
+    public void SetMusicVolume(float i)
+    {
+        SoundManager.instance.musicSource.volume = i;
+        PlayerPrefs.SetFloat("music", i);
+    }
+
+    public float GetMusicVolume()
+    {
+        return PlayerPrefs.GetFloat("music");
+    }
+
+    public float GetEffectVolume()
+    {
+        return PlayerPrefs.GetFloat("efx");
     }
 
     public void ClosePauseMenu()
@@ -66,7 +88,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         TimerObject.GetComponent<Timer>().StartTimer();
         PauseUI.SetActive(false);
-        SoundManager.instance.musicSource.volume = SoundManager.instance.backroundMusicVolume;
+        //SoundManager.instance.musicSource.volume = SoundManager.instance.backroundMusicVolume;
     }
 
     public void Scores()

@@ -100,7 +100,7 @@ public class CharacterController : MonoBehaviour
 		{
 			SoundManager.instance.PlaySingle(jumpSound);
 			Anim.SetBool("isJumping", true);
-			jump_anim_timer = 0.1f;
+			jump_anim_timer = 0.2f;
 			Audio.Play();
 			m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0);
 			m_Grounded = false;
