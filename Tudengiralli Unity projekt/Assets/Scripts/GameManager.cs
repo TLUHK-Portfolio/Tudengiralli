@@ -40,10 +40,10 @@ public class GameManager : MonoBehaviour
 
     public void FinishMenu()
     {
-        Scores();
         TimerObject.SetActive(false);
         Time.timeScale = 0f;
         FinishUI.SetActive(true);
+        SoundManager.instance.musicSource.volume = 0;
     }
 
     public void CloseFinishMenu()
@@ -51,6 +51,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         TimerObject.GetComponent<Timer>().StartTimer();
         FinishUI.SetActive(false);
+        SoundManager.instance.musicSource.volume = GetMusicVolume();
     }
 
     public void PauseMenu()
@@ -58,7 +59,7 @@ public class GameManager : MonoBehaviour
         TimerObject.GetComponent<Timer>().StopTimer();
         Time.timeScale = 0f;
         PauseUI.SetActive(true);
-        //SoundManager.instance.musicSource.volume = 0;
+        SoundManager.instance.musicSource.volume = 0;
     }
 
     public void SetEffectVolume(float i)
@@ -88,10 +89,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         TimerObject.GetComponent<Timer>().StartTimer();
         PauseUI.SetActive(false);
-        //SoundManager.instance.musicSource.volume = SoundManager.instance.backroundMusicVolume;
+        SoundManager.instance.musicSource.volume = GetMusicVolume();
     }
 
-    public void Scores()
+    /*public void Scores()
     {
         float currentTime = Time.time - TimerObject.GetComponent<Timer>().startTime;
         CurrentScore.GetComponent<TextMeshProUGUI>().text = TimeToString(currentTime);
@@ -108,7 +109,7 @@ public class GameManager : MonoBehaviour
         string seconds = (time % 60).ToString("00");
         string milliseconds = ((time * 1000) % 1000).ToString("000");
         return minutes + ":" + seconds + "." + milliseconds;
-    }
+    }*/
 
     public void MainMenu()
     {
