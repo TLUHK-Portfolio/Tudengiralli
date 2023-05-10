@@ -51,7 +51,7 @@ public class PlayerInput : MonoBehaviour
                 //SoundManager.instance.PlaySingle(dashSound);
             }
 			// Get player input for jumping
-			if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow))
+			if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
 			{
 				controller.Jump();
 				//SoundManager.instance.PlaySingle(jumpSound);

@@ -114,6 +114,7 @@ public class GameManager : MonoBehaviour
     public void MainMenu()
     {
         Time.timeScale = 1f;
+        SoundManager.instance.musicSource.volume = GetMusicVolume();
         SceneManager.LoadScene(0);
     }
 
@@ -125,6 +126,7 @@ public class GameManager : MonoBehaviour
 
     public void ChooseScene(int sceneIndex)
     {
+        SoundManager.instance.musicSource.volume = GetMusicVolume();
         SceneManager.LoadScene(sceneIndex);
     }
 

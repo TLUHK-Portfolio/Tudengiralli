@@ -20,8 +20,8 @@ public class PushbackObstacle : MonoBehaviour
             SoundManager.instance.PlaySingle(pushSound);
             Rigidbody2D playerRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
             collision.gameObject.GetComponent<PlayerInput>().stunTimer = stunTimer;
-            playerRigidbody.velocity = new Vector2(0, 0);
-            playerRigidbody.AddForce((collision.transform.position - gameObject.transform.position) * pushbackForce);
+            
+            playerRigidbody.AddForce((collision.transform.position - new Vector3(collision.contacts[0].point.x, collision.contacts[0].point.y, 0)) * pushbackForce);
         }
     }
 }
