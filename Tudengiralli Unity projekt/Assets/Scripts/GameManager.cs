@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
 
     public float GetMusicVolume()
     {
-        return PlayerPrefs.GetFloat("music");
+        return PlayerPrefs.GetFloat("music", 30f);
     }
 
     public float GetEffectVolume()
