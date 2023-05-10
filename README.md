@@ -12,12 +12,12 @@ Meie mänguarenduse tiim:
 |Taavi R.   |arendaja   |   |
 |Taavi A.  |disainer   |   |
 |Andero  |disainer   |   |
-## Tudengiralli versioon 0.4.0
-- [versioon 0.5.0 allalaadimislink](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.5.0/Tudengiralli-v0.5.0.zip)
-- [versioon 0.5.0 demo video](https://drive.google.com/file/d/19DOswHfAmali3JLvGlZw63ZKWGOwlLqP/view?usp=share_link)
+## Tudengiralli
+- [versioon 0.6.0 allalaadimislink](https://github.com/tluhk/rif21-MM-praktika-1/releases/download/v0.6.0/tudengiralli-v0.6.0.zip)
 - Mängu käivitamiseks paki lahti allalaetud fail ning käivita tudengiralli.exe
-- Mängust väljumiseks tuleb kasutada kombinatsiooni Alt+f4 või menüüst valikut exit.
-- Karakteri juhtimiseks tuleb kasutada noole klahve (toimib ka tühik, w ja d). 
+- Mängust väljumiseks tuleb kasutada kombinatsiooni Alt+f4 või menüüst valikut välju.
+- Karakteri juhtimiseks tuleb kasutada noole klahve (toimib ka tühik, w ja d).
+- Menüü kaudu on võimalik reguleerida heliefektide ja taustamuusika tugevust.  
 
 ## Struktuuri kirjeldus
 <img width="1282" alt="Tundegiralli struktuuri kirjeldus" src="https://user-images.githubusercontent.com/29203508/227105634-f6deccb3-44e4-44ae-8e0e-8ec3fbfef8a6.png">
