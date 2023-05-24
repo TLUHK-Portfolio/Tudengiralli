@@ -92,25 +92,6 @@ public class GameManager : MonoBehaviour
         SoundManager.instance.musicSource.volume = GetMusicVolume();
     }
 
-    /*public void Scores()
-    {
-        float currentTime = Time.time - TimerObject.GetComponent<Timer>().startTime;
-        CurrentScore.GetComponent<TextMeshProUGUI>().text = TimeToString(currentTime);
-        if (currentTime < PlayerPrefs.GetFloat("HighScore", 100000000000f))
-        {
-            PlayerPrefs.SetFloat("HighScore", currentTime);
-        }
-        HighScore.GetComponent<TextMeshProUGUI>().text = TimeToString(PlayerPrefs.GetFloat("HighScore"));
-    }
-
-    private string TimeToString(float time)
-    {
-        string minutes = ((int)time / 60).ToString("00");
-        string seconds = (time % 60).ToString("00");
-        string milliseconds = ((time * 1000) % 1000).ToString("000");
-        return minutes + ":" + seconds + "." + milliseconds;
-    }*/
-
     public void MainMenu()
     {
         Time.timeScale = 1f;
@@ -126,6 +107,7 @@ public class GameManager : MonoBehaviour
 
     public void ChooseScene(int sceneIndex)
     {
+        Time.timeScale = 1f;
         SoundManager.instance.musicSource.volume = GetMusicVolume();
         SceneManager.LoadScene(sceneIndex);
     }
